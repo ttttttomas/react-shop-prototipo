@@ -10,6 +10,8 @@ export const updateLocalStorage = state => {
   window.localStorage.setItem('cart', JSON.stringify(state))
 }
 console.log("hola")
+console.log("hola")
+
 const UPDATE_STATE_BY_ACTION = {
   [CART_ACTION_TYPES.ADD_TO_CART]: (state, action) => {
     const { id } = action.payload
